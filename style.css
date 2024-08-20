@@ -1,0 +1,68 @@
+.red{
+   background-color: red;
+}
+
+.blue{
+   background-color: blue;
+}
+
+body{
+   transition: 1s;
+}
+
+.box{
+
+
+
+
+   img{
+      width: 50%;
+   }
+
+
+}
+
+.open{
+   display: none;
+}
+
+
+#box2{
+   display: none;
+}
+
+
+
+.close{
+   display: block !important;
+}
+
+
+
+.anim {
+   animation: anim 0.s infinite;
+}
+
+
+
+
+@keyframes anim {
+0%{
+ rotate: 0deg;
+}
+
+
+100%{
+rotate: 360deg;
+}
+
+}
+
+.open2{
+   display: none;
+}
+
+
+.close2{
+   display: block;
+}
